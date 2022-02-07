@@ -1,0 +1,69 @@
+/*STYLE KIT*/
+*{
+    margin: 0px 0px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('/band kit/background/background.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top:0px;
+    left: 0px;
+    opacity: 0.7;
+}
+.container h1{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.418);
+    margin-left: 20%;
+    margin-top: 150px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+}
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    opacity: 1;
+}
+
+.key{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(51, 49, 49, 0.712);
+    border: 2px solid rgb(143, 142, 142);
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 5px 20px;
+    color: white;
+    font-size: 2rem;
+    font-style: bold;
+    width: 4rem;
+    transition: all .07s ease;
+    opacity: 1;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+.sound{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: gold;
+}
+
+.playing {
+    transform: scale(1.2);
+    border-color: gold;
+    box-shadow: 0 0 10px gold;
+}
